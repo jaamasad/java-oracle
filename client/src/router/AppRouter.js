@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import FilesList from '../components/FilesList';
 
 const AppRouter = () => (
-  <BrowserRouter>
+  <BrowserRouter basename='/'>
     <div className="container">
       <Header />
       <div className="main-content">
